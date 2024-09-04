@@ -1,0 +1,53 @@
+*{
+          margin:0;
+          padding: 0;
+          box-sizing: border-box;
+}
+body{
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+}
+h1{
+          font-size: 4rem;
+          letter-spacing: 5px;
+}
+.container{
+          width: 50%;
+          height: 40%;
+          margin:5rem auto;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+}
+form{
+          display: flex;
+          justify-content: center;
+}
+form label{
+          display: flex;
+          flex-direction: column;
+          margin:0 1rem;
+}
+#selected-minute,#selected-second{
+          margin-top: 0.5rem;
+          padding: 0.5rem;
+          font-size:1.2rem;
+}
+#start,#delete{
+          padding: 0.5rem;
+          border-radius: 10px;
+          border:none;
+          background: rgb(184, 63, 63);
+          cursor: pointer;
+}
+#start:hover{
+          background: rgb(226, 70, 70);
+}
+#delete{
+          background: rgb(63, 184, 89);
+}
+#delete:hover{
+          background: rgb(76, 226, 108);
+}
